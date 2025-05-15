@@ -1,0 +1,781 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+     font-family: "Open Sans", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+
+p{
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #f5f0ed;
+}
+
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.intro p br{
+    display: inline;
+}
+
+
+button{
+    font-size: 1.6rem;
+    color: #f5f0ed;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #f5f0ed;
+    border-width: 3px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./Imagenes/Fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f5f0ed;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    width: 30%;
+    top: 15px;
+    left: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.intro p{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+}
+/*HEADER*/
+
+
+
+
+
+
+
+
+
+
+
+/*BOXES*/
+.boxes{
+    width: 100%;
+    height: 90vh;
+   
+}
+
+
+.box1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d03b40;
+    color: #ded6c0;
+}
+
+.box1 p{
+    margin-top: 15px;
+    width: 75%;
+}
+
+
+.box2{
+    width: 100%;
+    height: 50%;
+    background-color: #ded6c0;
+    color: #d03b40;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2 p{
+    margin-top: 15px;
+    width: 75%;
+}
+/*BOXES*/
+
+
+
+
+
+
+/*DESAYUNAR*/   
+.desayunar{
+    width: 100%;
+    height: 65vh;
+    color: #f5f0ed;
+    text-align: center;
+    background-size: cover;
+    background-image: url(./Imagenes/Fondo2.jpg);
+}
+
+.desayunar p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.desayunar hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+}
+/*DESAYUNAR*/
+
+
+
+/*PRODUCTOS*/
+.productos{
+    width: 100%;
+    height: auto;
+}
+
+
+.icono{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+
+
+.productos article p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+
+
+.producto{
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+
+
+
+#producto1 div{
+        width: 75%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+#producto2 div{
+        width: 75%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+#producto3 div{
+        width: 80%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+
+#producto4 div{
+        width: 80%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+/*DESAYUNAR*/
+
+
+
+
+
+
+/*BOXES2*/
+.boxes2{
+    width: 100%;
+    height: 90vh;
+}
+
+
+
+.box3{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ded6c0;
+    color: #d03b40;
+}
+
+
+.box3 p{
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+
+
+.box4{
+    width: 100%;
+    height: 50%;
+    background-color: #d03b40;
+    color: #ded6c0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box4 p{
+    width: 35%;
+    margin-top: 10px;
+}
+
+/*BOXES2*/
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #241d1b;
+    color: #f5f0ed;
+}
+
+
+.footcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footcontainer p{
+    margin-left: 30px;
+}
+
+span{
+    display: none;
+}
+
+/*FOOTER*/
+
+
+
+@media (min-width: 460px) and (max-width: 470px) {
+        
+.intro p{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro p br{
+    display: inline;
+}
+
+.box1 p{
+    margin-top: 15px;
+    width: 75%;
+}
+
+
+
+.box2 p{
+    margin-top: 15px;
+    width: 75%;
+}
+
+
+
+.desayunar p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+
+
+#producto1 div{
+        width: 75%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+#producto2 div{
+        width: 80%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+#producto3 div{
+        width: 85%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+
+#producto4 div{
+        width: 80%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+.box3 p{
+    width: 80%;
+    margin-top: 10px;
+}
+
+
+.box4 p{
+    width: 35%;
+    margin-top: 10px;
+}
+}
+
+
+
+
+
+@media (min-width: 430px) and (max-width: 450px) {
+  .intro p{
+    width: 100%;
+  }
+
+
+  
+.box1 p{
+    margin-top: 15px;
+    width: 75%;
+}
+
+
+
+.box2 p{
+    margin-top: 15px;
+    width: 85%;
+}
+
+
+
+.desayunar p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+
+
+#producto1 div{
+        width: 75%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+#producto2 div{
+        width: 85%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+#producto3 div{
+        width: 90%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+
+#producto4 div{
+        width: 90%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+.box3 p{
+    width: 80%;
+    margin-top: 15px;
+}
+
+
+.box4 p{
+    width: 40%;
+    margin-top: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 400px) and (max-width: 420px) {
+      .intro p{
+    width: 100%;
+  }
+
+
+  
+.box1 p{
+    margin-top: 15px;
+    width: 85%;
+}
+
+
+
+.box2 p{
+    margin-top: 15px;
+    width: 90%;
+}
+
+
+
+.desayunar p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+
+#producto1 div{
+        width: 90%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+#producto2 div{
+        width: 95%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+#producto3 div{
+        width: 95%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+
+#producto4 div{
+        width: 95%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+.box3 p{
+    width: 85%;
+    margin-top: 15px;
+}
+
+
+.box4 p{
+    width: 40%;
+    margin-top: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px) and (max-width: 399px) {
+  p{
+    font-size: 1.7rem;
+  }
+
+
+  
+.box1 p{
+    margin-top: 15px;
+    width: 80%;
+}
+
+
+
+.box2 p{
+    margin-top: 15px;
+    width: 85%;
+}
+
+
+
+.desayunar p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+
+#producto1 div{
+        width: 85%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+#producto2 div{
+        width: 90%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+#producto3 div{
+        width: 90%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+
+
+
+#producto4 div{
+        width: 90%;
+        margin-bottom: 70px;
+        padding-bottom: 45px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+
+.box3 p{
+    width: 80%;
+    margin-top: 15px;
+}
+
+
+.box4 p{
+    width: 35%;
+    margin-top: 15px;
+}
+}
+
